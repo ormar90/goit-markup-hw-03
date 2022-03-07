@@ -1,0 +1,213 @@
+:root {
+  --header-color: #212121;
+  --logo-color: #000000;
+  --basic-white-color: #ffffff;
+  --secondary-white-color: rgba(255, 255, 255, 0.6);
+  --text-color: #757575;
+  --accent-color: #2196f3;
+
+  --dark-background-color: #2f303a;
+  --light-background-color: #ececec;
+  --gray-background: #f5f4fa;
+
+  --raleway: "Raleway", sans-serif;
+  --roboto: "Roboto", sans-serif;
+}
+
+body {
+  background-color: var(--basic-white-color);
+  color: var(--text-color);
+  font-family: var(--roboto);
+  letter-spacing: 0.03em;
+}
+
+.link-ns {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.title-nd {
+  display: none;
+}
+
+.lists-ns {
+  list-style-type: none;
+}
+
+/* 
+header
+*/
+.logo {
+  color: var(--accent-color);
+  font-family: var(--raleway);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.header-modifier-logo {
+  color: var(--logo-color);
+}
+
+.nav,
+.nav-inner {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.nav-item {
+  color: var(--header-color);
+}
+
+.nav-inner-item {
+  color: var(--text-color);
+}
+
+.nav-item:hover,
+.nav-item:focus,
+.nav-inner-item:hover,
+.nav-inner-item:focus {
+  color: var(--accent-color);
+}
+
+/* hero */
+.hero {
+  background-color: var(--dark-background-color);
+}
+
+.hero-title {
+  color: var(--basic-white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.hero-button {
+  background-color: var(--accent-color);
+  color: var(--basic-white-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.hero-button:focus,
+.hero-button:hover {
+  cursor: pointer;
+}
+
+/* Особенности */
+.lists-title {
+  color: var(--header-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.lists-paragraph {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* Чем мы занимаемся */
+.title {
+  color: var(--header-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+/* Наша команда */
+.team {
+  background-color: var(--gray-background);
+}
+
+.team-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.team-paragraph {
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+}
+/* footer */
+.footer {
+  background-color: var(--dark-background-color);
+}
+
+.footer-modifier-logo {
+  color: var(--basic-white-color);
+}
+
+.footer-list {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.footer-addres {
+  color: var(--basic-white-color);
+}
+
+.footer-mail,
+.footer-tel {
+  color: var(--secondary-white-color);
+}
+
+.footer-mail:hover,
+.footer-tel:hover,
+.footer-addres:hover,
+.footer-mail:focus,
+.footer-tel:focus,
+.footer-addres:focus {
+  color: var(--accent-color);
+}
+
+/* portfolio */
+
+/* menu */
+
+.menu-button {
+  font-family: inherit;
+  background-color: var(--gray-background);
+  color: var(--header-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  cursor: pointer;
+}
+
+.menu-button:hover,
+.menu-button:focus {
+  background-color: var(--accent-color);
+  color: var(--basic-white-color);
+}
+
+/* projects */
+
+.project-title {
+  color: var(--header-color);
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.project-paragraph {
+  font-size: 16px;
+  line-height: 1.9;
+}
