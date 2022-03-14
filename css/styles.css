@@ -391,13 +391,13 @@ header
 .projects {
   display: flex;
   flex-wrap: wrap;
-  margin-right: calc(-1 * var(--img-gap));
+  margin-left: calc(-1 * var(--img-gap));
   margin-top: calc(-1 * var(--img-gap));
 }
 
 .projects > .list-item {
   flex-basis: calc(100% / 3 - var(--img-gap));
-  margin-right: var(--img-gap);
+  margin-left: var(--img-gap);
   margin-top: var(--img-gap);
 }
 
